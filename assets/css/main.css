@@ -7337,7 +7337,7 @@ input[type=color] {
 .tp-service-3-title {
   font-family: var(--tp-ff-playfair);
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: -0.02em;
   text-align: center;
   color: var(--tp-common-black4);
@@ -9561,11 +9561,15 @@ input[type=color] {
 /*----------------------------------------*/
 .tp-faq-thumb img {
   transform: translateX(-195px);
+  margin-top: -4rem;
+  margin-left: 4rem;
+
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tp-faq-thumb img {
     width: 100%;
     transform: translateX(0);
+    margin-left: 0rem;
   }
 }
 .tp-faq-wrapper .accordion {
